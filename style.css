@@ -1,0 +1,87 @@
+:root {
+    --ctp-rosewater: #f5e0dc;
+    --ctp-flamingo: #f2cdcd;
+    --ctp-pink: #f5c2e7;
+    --ctp-mauve: #cba6f7;
+    --ctp-red: #f38ba8;
+    --ctp-maroon: #eba0ac;
+    --ctp-peach: #fab387;
+    --ctp-yellow: #f9e2af;
+    --ctp-green: #a6e3a1;
+    --ctp-teal: #94e2d5;
+    --ctp-sky: #89dceb;
+    --ctp-sapphire: #74c7ec;
+    --ctp-lavender: #b4befe;
+    --ctp-blue: #89b4fa;
+    --ctp-text: #dadada;
+    --ctp-subtext1: #e5e5e5;
+    --ctp-subtext0: #e5e5e5;
+    --ctp-overlay2: #9399b2;
+    --ctp-overlay1: #7f849c;
+    --ctp-overlay0: #6c7086;
+    --ctp-surface2: #585b70;
+    --ctp-surface1: #2f2f2f;
+    --ctp-surface0: #1d1d1d;
+    --ctp-base: #111111;
+    --ctp-mantle: #0e0e0e;
+    --ctp-crust: #11111b;
+    --shadow: #010409;
+    --ctp-accent: #de6161;
+    color-scheme: dark;
+}
+
+:root,
+.dark {
+    --body-background-fill: var(--background-fill-primary);
+    --body-text-color: var(--ctp-subtext0);
+    --color-accent-soft: var(--ctp-surface0);
+    --background-fill-primary: var(--ctp-mantle);
+    --background-fill-secondary: var(--ctp-base);
+    --border-color-accent: var(--ctp-surface0);
+    --border-color-primary: var(--ctp-surface1);
+    --link-text-color-active: var(--ctp-subtext0);
+    --link-text-color: var(--ctp-subtext0);
+    --link-text-color-hover: var(--ctp-accent);
+    --link-text-color-visited: var(--ctp-subtext0);
+    --body-text-color-subdued: var(--ctp-subtext0);
+}
+
+body {
+    background: var(--background-fill-primary);
+}
+
+.padded-div {
+    margin-left: 15px;
+}
+
+.header-link-box ul {
+    list-style: none;
+    padding: 0;
+}
+
+.header-link-box li {
+    font-size: 50px;
+    background-color: var(--ctp-surface0);
+    display: inline-block;
+    border-radius: 5px;
+    margin: 2px;
+}
+
+.header-link-box li:hover {
+    background-color: var(--ctp-surface1);
+    font-size: 51px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button {
+    background-color: var(--ctp-surface0);
+    border-radius: 5px;
+    border-style: outset;
+}
